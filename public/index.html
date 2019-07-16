@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Free Comm</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Client <span id="id"></span></h1>
+    <div class="localVideo">
+        <video id="localVideo"></video>
+        <button id="startCam">Open Cam</button>
+    </div>
+    <div>
+        <ul id="clients">
+        </ul>
+    </div>
+    <div id="messages">
+
+    </div>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</script>
+</body>
+
+</html>
