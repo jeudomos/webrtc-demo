@@ -12,7 +12,7 @@
 <body>
     <h1>Client <span id="id"></span></h1>
     <div class="localVideo">
-        <video id="localVideo"></video>
+        <div class="split"><video id="localVideo" muted></video><textarea id="chat" rows="18" cols="50"></textarea></div>
         <button id="startCam">Open Cam</button>
     </div>
     <div>
@@ -20,6 +20,7 @@
         </ul>
     </div>
     <div id="messages">
+        
 
     </div>
     <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>

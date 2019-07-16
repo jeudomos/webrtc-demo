@@ -1,3 +1,9 @@
+.split {
+    display: flex;
+}
+.split textarea {
+    margin-left: 1em;
+}
 ul {
     list-style: none;
 }
